@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="com.kuang.pojo.User">
+<!--        <property name="name" value="秦疆"/>-->
+        <!--有参构造：①下标赋值-->
+<!--        <constructor-arg index="0" value="狂神java"/>-->
+        <!--有参构造：②类型创建，不建议使用-->
+<!--        <constructor-arg type="java.lang.String" value="qingjiang"/>-->
+        <!--有参构造：③参数名-->
+        <constructor-arg name="name" value="秦疆"/>
+    </bean>
+
+    <bean id="userT" class="com.kuang.pojo.UserT">
+    </bean>
+    <!--别名-->
+    <alias name="user" alias="newUser"></alias>
+</beans>
