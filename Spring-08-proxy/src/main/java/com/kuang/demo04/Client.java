@@ -2,7 +2,6 @@ package com.kuang.demo04;
 
 import com.kuang.demo02.UserService;
 import com.kuang.demo02.UserServiceImpl;
-
 public class Client {
     public static void main(String[] args) {
         //真实角色

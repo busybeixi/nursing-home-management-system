@@ -30,3 +30,8 @@
 ###bean作用域
  - @Scope("prototype")原型模式
  - @Scope("singleton")单例模式
+ 
+###动态代理
+ - 动态代理的反射机制：
+   - method,表示方法。类中的方法。通过Method可执行某个方法。
+   - 
